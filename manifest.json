@@ -1,0 +1,12 @@
+{
+    "name": "Start Page",
+    "description" : "The most elegant new page.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["index.js"]
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
